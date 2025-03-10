@@ -8,6 +8,7 @@ import java.util.UUID;
 public interface BlogAppPostServiceComentarios {
     PostComentarioModel savePostComentario(PostComentarioModel postComentario);
     List<PostComentarioModel> getAllPostComentarios();
+    List<PostComentarioModel> getComentariosByPostId(UUID postId);
     Optional<PostComentarioModel> getPostComentarioById(UUID id);
     PostComentarioModel updatePostComentario(PostComentarioModel postComentario);
     void deletePostComentario(UUID id);
