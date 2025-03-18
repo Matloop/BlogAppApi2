@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class BlogAppApiApplication {
+public class
+BlogAppApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BlogAppApiApplication.class, args);
